@@ -9,7 +9,12 @@ body, html {
     width: 100%;
     height: 100%;
     color: black;
-    background-color: white;
+    background-color:  #e5e7e9 
+;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Questrial;
 }
 
 ul {
@@ -31,7 +36,9 @@ h1 {
 
 h3 {
     color: tan;
+    font-weight: bold;
     padding: 40px 0 0 50px;
+    font-family: Rubik;
 }
 
 
@@ -45,13 +52,24 @@ i {
 
 }
 
-a {
+#navigation a {
     color: skyblue;
-    z-index: 13;
-    position: relative;
+}
+
+a {
+    
 }
 
 a:hover {
+    text-decoration: none;
+}
+
+.col-md-3 a {
+    color: #000;
+}
+
+.col-md-3 a:hover {
+    color: gray;
     text-decoration: none;
 }
 
@@ -59,9 +77,10 @@ a:hover {
 .container {
     background-color: beige;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0;
     margin: 0 auto;
+    z-index: 3;
    /* border: solid 30px azure; */
 }
 
@@ -77,12 +96,12 @@ h2 {
 
 .menu {
     margin: 5px 0px;
-    width: 270px;
+    width: 265px;
     height: 325px;
     background-color: azure;
     text-align: center;
     border-radius: 0.2em;
-    box-shadow: 1px 1px 0.3em lightgray;
+    box-shadow: 0px 0px 0.2em lightgray;
 }
 
 img {
@@ -98,8 +117,22 @@ h5, p {
 }
 
 h5 {
-    color: gray;
+    color: navy;
 }
 
+#content {
+    margin-bottom: 30px;
+    z-index: 5;
+    position: relative;
+}
 
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: skyblue;
+}
 
+footer p {
+    color: white;
+    padding: 25px 0 0 0;
+}
