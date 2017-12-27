@@ -92,6 +92,10 @@ h3 {
     float: left;
 }
 
+#pickup-btn:hover, #delivery-btn:hover {
+    background-color: gainsboro;
+}
+
 i {
     color: white;
     font-family: "Helvetica";
