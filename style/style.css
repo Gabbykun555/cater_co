@@ -22,12 +22,14 @@ body, html {
     width: 100vw;
     height: 100vh;
     background-color: navy;
+    z-index: 0;
 }
 
 #showcase {
     width: 100vw;
     height: 100vh;
     opacity: 0.14;
+    z-index: -1;
 }
 
 #content {
@@ -92,6 +94,7 @@ h3 {
 
 i {
     color: white;
+    font-family: "Helvetica";
 }
 
 .see-more {
@@ -104,4 +107,13 @@ i {
 
 .active {
     
+}
+
+a {
+    z-index: 13;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
 }
